@@ -1,0 +1,22 @@
+<title>reddit unblocked</title>
+<h2>Reddit Image Search Tool</h2>
+<h4>This tool allows you to view images from reddit using google's advanced search feature</h4><br>
+<strong>I AM NOT RESPONSIBLE FOR ANY OF THE IMAGES SHOWN BY USING THIS TOOL!</strong><br><br>
+<input id="subreddit">Enter the subreddit to search (ex. r/programmerhumor)</input><br>
+<input id="query">Enter the search query (optional) (ex. Memes)</input><br>
+<button onclick="search()">Search</button>
+<style>
+  html{font-family:sans-serif;}
+</style>
+<script>
+  function search() {
+    var subreddit = document.getElementById("subreddit").value;
+    var query = document.getElementById("query").value;
+    var url = "https://www.google.com/search?q="+query+"++site:reddit.com/"+subreddit+"&tbm=isch&chips=q:"+query+",g_1:reddit:xz4SXcNgTuA%3D&hl=en&sa=X&ved=2ahUKEwiY667r38_0AhV2mJ4KHddBDKMQ4lYoAXoECAEQFA&biw=1366&bih=617&safe=active&ssui=on";
+    window.open(url);
+  }
+</script>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
